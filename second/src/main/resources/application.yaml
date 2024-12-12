@@ -1,0 +1,10 @@
+spring:
+  config:
+    import:
+      - classpath:etalon/application.yaml
+      - classpath:etalon/data.yaml
+      - classpath:etalon/second.yaml
+      - optional:file:./common/common.yaml
+      - optional:file:./second/application.yaml
+      - optional:file:./second/data.yaml
+      - optional:file:./second/second.yaml
